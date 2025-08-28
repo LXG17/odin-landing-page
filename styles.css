@@ -210,3 +210,10 @@ q {
     background-color: white;
     color: #3B82F6;
 }
+
+footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px 0;
+}
