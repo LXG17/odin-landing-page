@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0
 }
-.header{
+.header, .hero{
     background-color: #1f2937;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 .header-links a{
-    color: #F9FAF8;
+    color: #e5e7eb;
     padding: 8px 12px;
     border-radius: 4px;
     text-decoration: none;
@@ -37,4 +37,65 @@
 
 .header-links a:hover{
     background-color: #3B82F6;
+}
+
+.hero{
+    background-color: #1f2937;
+}
+
+.hero-content{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    margin: 64px;
+    gap: 64px;
+}
+
+.hero-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-subtitle{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup {
+    background-color: #4b535e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.signup:hover {
+    background-color: #3B82F6;
+}
+
+.hero-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-image img{
+    background-color: #4b535e;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 100%;
+    width: 100%;
+    height: 50%;
 }
